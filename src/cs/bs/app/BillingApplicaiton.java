@@ -1,6 +1,6 @@
-package cs.biling.app;
+package cs.bs.app;
 
-public class BillingApp {
+public class BillingApplicaiton {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
