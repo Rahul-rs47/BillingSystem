@@ -1,3 +1,12 @@
+/**
+ * This class is used to store the master Bill items
+ * 
+ * Serializable - store the object in file
+ * constructor and setter and getter methods
+ * 
+ */
+
+
 package cs.bs.dto;
 
 import java.io.Serializable;

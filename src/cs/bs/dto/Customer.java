@@ -1,3 +1,11 @@
+/**
+ * This class is used to store the master Customer
+ * 
+ * Serializable - store the object in file
+ * constructor and setter and getter methods
+ * 
+ */
+
 package cs.bs.dto;
 
 import java.io.Serializable;
@@ -49,6 +57,16 @@ public class Customer implements Serializable {
 
 	public void setCustomerPlace(String customerPlace) {
 		this.customerPlace = customerPlace;
+	}
+	
+	public String toString(){
+		String output = null;
+		output = " \n customerId :-" + customerId;
+		output += "\n customerName :- "+ customerName;
+		output += "\n customerMobileNumber :- "+ customerMobileNumber;
+		output += "\n customerPlace :- "+ customerPlace;
+		  
+		return output;
 	}
 
 }

@@ -1,3 +1,11 @@
+/**
+ * This class is used to store the  details of products in a bill 
+ * 
+ * Serializable - store the object in file
+ * constructor and setter and getter methods
+ * 
+ */
+
 package cs.bs.dto;
 
 import java.io.Serializable;

@@ -1,3 +1,15 @@
+/**
+ * This class offers functionality to read different types of data from console
+ * 
+ * read valid int  -- getI
+ * read valid double  -- getD
+ * read String  meets "[a-zA-Z\\s]+"  -- getS
+ * read int between -- getIBetween
+ * read char - getC
+ * get the current date -- getCurrentDate
+ * 
+ */
+
 package cs.bs.util;
 
 import java.time.LocalDate;

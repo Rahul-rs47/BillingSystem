@@ -1,3 +1,11 @@
+/**
+ * This class offers functionality for reading from and writing to hash table data files
+ * 
+ * read   -- readData
+ * write  -- writeData
+ * 
+ */
+
 package cs.bs.util;
 
 import java.io.FileInputStream;
